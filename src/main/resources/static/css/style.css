@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+
+}
+main{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: black;
+    margin:0;
+}
+
+form label{
+    padding: 1em;
+}
+form input{
+    margin: 1em;
+    padding: 0.5em;
+}
+
+main button{
+    margin: 1em;
+    padding: 0.5em;
+}
+nav a{
+    font-size: 1.25em;
+    color: white;
+    text-decoration: none;
+}
+nav #addRating {
+    font-size: .85em;
+    background-color: blue;
+    border-radius: 6px; 
+    border: none;
+    color: white;
+    padding: .8em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Merges double cell borders into one */
+    table-layout: fixed;       /* Speeds up browser rendering */
+    margin: 20px 0;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+ 
+  thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    
+  }
+  
+  th, td {
+    padding: 12px 15px;
+  }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    font-size: .85em;
+    text-align:center;
+}
